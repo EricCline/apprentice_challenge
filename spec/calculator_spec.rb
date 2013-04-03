@@ -49,7 +49,7 @@ describe 'Calculator' do
     describe 'base 4 calculator' do
       let(:calc) { Calculator.new(base: 4) }
 
-      xit 'defaults to base 10' do
+      xit 'can set the base to something other than 10' do
         expect(calc.base).to eq(4)
       end
 
