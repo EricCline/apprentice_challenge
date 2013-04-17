@@ -32,7 +32,7 @@ class Calculator
   end
 	
   def equal
-	@input = @input + @add_val - @subtract_val
+	@input += @add_val - @subtract_val
 		
 	if @base != 10
 	  digits = []
