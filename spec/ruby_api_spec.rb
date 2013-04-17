@@ -1,10 +1,11 @@
 require "spec_helper"
+require "ruby_api"
 
 describe "Strings" do
 
   it "reverses a string" do
     # fix this spec by correcting the expectation. Don't add any code in lib.
-    expect("Reverse me").to eq("em esreveR")
+    expect("Reverse me".reverse).to eq("em esreveR")
   end
 
 end
